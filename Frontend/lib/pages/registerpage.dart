@@ -1,4 +1,4 @@
-import '../widgets/buttons.dart';
+import 'package:alvas_mangment/widgets/buttons.dart';
 import 'package:flutter/material.dart';
 import 'package:google_fonts/google_fonts.dart';
 import '../widgets/text_feild.dart';

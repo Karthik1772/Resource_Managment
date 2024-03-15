@@ -1,5 +1,5 @@
-import '../widgets/buttons.dart';
-import '../widgets/text_feild.dart';
+import 'package:alvas_mangment/widgets/buttons.dart';
+import 'package:alvas_mangment/widgets/text_feild.dart';
 import 'package:flutter/gestures.dart';
 import 'package:flutter/material.dart';
 import 'package:google_fonts/google_fonts.dart';

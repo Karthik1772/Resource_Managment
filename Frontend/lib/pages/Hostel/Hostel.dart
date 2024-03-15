@@ -1,6 +1,6 @@
 import'package:flutter/material.dart';
 import'package:google_fonts/google_fonts.dart';
-import '../../widgets/Card_box.dart';
+import 'package:alvas_mangment/widgets/Card_box.dart';
 class Hostel extends StatefulWidget {
   const Hostel({super.key});
 
