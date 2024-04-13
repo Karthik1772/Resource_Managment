@@ -57,7 +57,9 @@ class _ProfileState extends State<Profile> {
           height: 30,
           child: Text(
             "Basic Details",
-            style: GoogleFonts.cormorant(textStyle: TextStyle(fontSize: 20),),
+            style: GoogleFonts.cormorant(
+              textStyle: TextStyle(fontSize: 20),
+            ),
           ),
           margin: EdgeInsets.only(left: 20, right: 20),
         ),
