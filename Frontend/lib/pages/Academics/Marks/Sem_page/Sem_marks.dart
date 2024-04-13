@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:google_fonts/google_fonts.dart';
+
 class Sem_marks extends StatefulWidget {
   const Sem_marks({super.key});
 
@@ -14,14 +15,17 @@ class _Sem_marksState extends State<Sem_marks> {
       length: 8,
       child: Scaffold(
         appBar: AppBar(
-          title: Text('Sem Marks',style: GoogleFonts.varelaRound(
-                color: Colors.white, fontSize: 25, fontWeight: FontWeight.bold),),
+          title: Text(
+            'Sem Marks',
+            style: GoogleFonts.varelaRound(
+                color: Colors.white, fontSize: 25, fontWeight: FontWeight.bold),
+          ),
           backgroundColor: Colors.orange,
         ),
-        body:  Column(
+        body: Column(
           children: [
-           const TabBar(
-            isScrollable: true,
+            const TabBar(
+              isScrollable: true,
               tabs: [
                 Tab(
                   // icon: Icon(Icons.border_color_sharp),
@@ -56,7 +60,7 @@ class _Sem_marksState extends State<Sem_marks> {
                   text: '8th sem',
                 ),
               ],
-              ),
+            ),
           ],
         ),
       ),

@@ -14,15 +14,15 @@ class _HomePageState extends State<HomePage> {
     return SafeArea(
       child: Scaffold(
         appBar: AppBar(
-            title: Text('              ALVAS',
-                style: GoogleFonts.varelaRound(
-                    color: Colors.white,
-                    fontSize: 25,
-                    fontWeight: FontWeight.bold,)
-                    ),
-                    iconTheme: IconThemeData(color: Colors.white),
-            backgroundColor: Colors.orange,
-            ),
+          title: Text('              ALVAS',
+              style: GoogleFonts.varelaRound(
+                color: Colors.white,
+                fontSize: 25,
+                fontWeight: FontWeight.bold,
+              )),
+          iconTheme: IconThemeData(color: Colors.white),
+          backgroundColor: Colors.orange,
+        ),
         drawer: customDrawer(context),
         body: Column(
           crossAxisAlignment: CrossAxisAlignment.start,
@@ -31,13 +31,13 @@ class _HomePageState extends State<HomePage> {
               margin: const EdgeInsets.only(
                   left: 10, right: 10, top: 5, bottom: 10),
               child: GestureDetector(
-                onTap: () => Navigator.pushNamed(context,'/profile'),
+                onTap: () => Navigator.pushNamed(context, '/profile'),
                 child: Card(
                   elevation: 10,
                   surfaceTintColor: Colors.transparent,
                   child: ListTile(
-                    leading:  CircleAvatar(
-                      backgroundImage:AssetImage('assets/download.jpg'),
+                    leading: CircleAvatar(
+                      backgroundImage: AssetImage('assets/download.jpg'),
                       radius: 30,
                     ),
                     title: Text(
@@ -82,7 +82,8 @@ class _HomePageState extends State<HomePage> {
                       const ListTile(
                         title: Text('Event name'),
                         subtitle: Text('Hello World'),
-                        leading: Icon(Icons.notifications_on_rounded,color:Colors.black),
+                        leading: Icon(Icons.notifications_on_rounded,
+                            color: Colors.black),
                         trailing: Icon(Icons.arrow_forward_ios_rounded),
                       ),
                     ],
@@ -96,6 +97,7 @@ class _HomePageState extends State<HomePage> {
       ),
     );
   }
+
   Widget customDrawer(BuildContext context) {
     return Drawer(
       child: Column(
@@ -107,38 +109,43 @@ class _HomePageState extends State<HomePage> {
             child: Center(child: Image.asset('assets/alvas_logo.png')),
           ),
           ListTile(
-            leading: const Icon(Icons.school,color:Colors.black),
+            leading: const Icon(Icons.school, color: Colors.black),
             title: const Text('Acadamics'),
-            trailing: const Icon(Icons.play_arrow_rounded,color: Colors.orange,),
+            trailing: const Icon(
+              Icons.play_arrow_rounded,
+              color: Colors.orange,
+            ),
             onTap: () => Navigator.pushNamed(context, "/academics"),
           ),
           const Divider(),
           ListTile(
-            leading: const Icon(Icons.pedal_bike_outlined,color:Colors.black),
+            leading: const Icon(Icons.pedal_bike_outlined, color: Colors.black),
             title: const Text('Clubs'),
-            trailing: const Icon(Icons.play_arrow_rounded,color: Colors.orange),
+            trailing:
+                const Icon(Icons.play_arrow_rounded, color: Colors.orange),
             onTap: () => Navigator.pushNamed(context, '/clubs'),
           ),
           const Divider(),
-           ListTile(
-            leading:const Icon(Icons.menu_book_rounded,color:Colors.black),
-            title:const Text('Library'),
-            trailing:const Icon(Icons.play_arrow_rounded,color: Colors.orange),
-            onTap: () => Navigator.pushNamed(context , '/library'),
+          ListTile(
+            leading: const Icon(Icons.menu_book_rounded, color: Colors.black),
+            title: const Text('Library'),
+            trailing:
+                const Icon(Icons.play_arrow_rounded, color: Colors.orange),
+            onTap: () => Navigator.pushNamed(context, '/library'),
           ),
           const Divider(),
           ListTile(
-            leading: Icon(Icons.business_outlined,color:Colors.black),
+            leading: Icon(Icons.business_outlined, color: Colors.black),
             title: Text('Hostel'),
-            trailing: Icon(Icons.play_arrow_rounded,color: Colors.orange),
-            onTap: () =>Navigator.pushNamed(context, "/hostel"),
+            trailing: Icon(Icons.play_arrow_rounded, color: Colors.orange),
+            onTap: () => Navigator.pushNamed(context, "/hostel"),
           ),
           const Divider(),
           ListTile(
-            leading: Icon(Icons.logout,color:Colors.black),
+            leading: Icon(Icons.logout, color: Colors.black),
             title: Text('Sign Out'),
-            trailing: Icon(Icons.play_arrow_rounded,color: Colors.orange),
-            onTap: () =>Navigator.pushNamed(context, "/login"),
+            trailing: Icon(Icons.play_arrow_rounded, color: Colors.orange),
+            onTap: () => Navigator.pushNamed(context, "/login"),
           ),
           const Divider(),
         ],

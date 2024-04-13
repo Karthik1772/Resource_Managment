@@ -24,12 +24,14 @@ class _AcademicsState extends State<Academics> {
           automaticallyImplyLeading: false,
           leading: IconButton(
             icon: const Icon(Icons.arrow_back),
-            onPressed: () => Navigator.pop(context,'/homepage'),
+            onPressed: () => Navigator.pop(context, '/homepage'),
           ),
         ),
         body: Column(
           children: [
-            SizedBox(height: 20,),
+            SizedBox(
+              height: 20,
+            ),
             Row(
               crossAxisAlignment: CrossAxisAlignment.center,
               mainAxisAlignment: MainAxisAlignment.spaceEvenly,
@@ -38,12 +40,12 @@ class _AcademicsState extends State<Academics> {
                   icon: Icons.person,
                   title: "Attendance",
                   // onPressed: () => Navigator.pushNamed(context, routeName),
-                  ),
+                ),
                 CardBox(
-                  icon: Icons.book, 
+                  icon: Icons.book,
                   title: "Marks",
                   onPressed: () => Navigator.pushNamed(context, '/marks'),
-                  ),
+                ),
               ],
             ),
             SizedBox(
@@ -54,15 +56,15 @@ class _AcademicsState extends State<Academics> {
               mainAxisAlignment: MainAxisAlignment.spaceEvenly,
               children: [
                 CardBox(
-                  icon: Icons.library_books, 
+                  icon: Icons.library_books,
                   title: "Syllabus",
                   // onPressed: () => Navigator.pushNamed(context, routeName),
-                  ),
-                  CardBox(
-                  icon: Icons.calendar_month_outlined, 
+                ),
+                CardBox(
+                  icon: Icons.calendar_month_outlined,
                   title: "Assigments",
                   // onPressed: () => Navigator.pushNamed(context, routeName),
-                  ),
+                ),
               ],
             ),
             SizedBox(
@@ -73,15 +75,15 @@ class _AcademicsState extends State<Academics> {
               mainAxisAlignment: MainAxisAlignment.spaceEvenly,
               children: [
                 CardBox(
-                  icon: Icons.people_outline, 
+                  icon: Icons.people_outline,
                   title: "Mentorship",
                   // onPressed: () => Navigator.pushNamed(context, routeName),
-                  ),
+                ),
                 CardBox(
-                  icon: Icons.calculate_outlined, 
+                  icon: Icons.calculate_outlined,
                   title: 'CGPA Calculator',
                   // onPressed: () => Navigator.pushNamed(context, routeName),
-                  ),
+                ),
               ],
             ),
           ],

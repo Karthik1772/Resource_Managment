@@ -1,10 +1,12 @@
 import 'package:flutter/material.dart';
 import 'package:google_fonts/google_fonts.dart';
+
 class CardBox extends StatelessWidget {
   final String title;
   final IconData icon;
   final VoidCallback? onPressed;
-  const CardBox({super.key, required this.title, required this.icon, this.onPressed});
+  const CardBox(
+      {super.key, required this.title, required this.icon, this.onPressed});
 
   @override
   Widget build(BuildContext context) {
@@ -31,7 +33,7 @@ class CardBox extends StatelessWidget {
                     fontWeight: FontWeight.normal,
                     fontSize: 16),
               ),
-               SizedBox(
+              SizedBox(
                 height: 10,
               )
             ],

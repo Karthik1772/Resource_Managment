@@ -25,45 +25,25 @@ class Routes {
           builder: (context) => const LoginPage(),
         );
       case '/register':
-        return MaterialPageRoute(
-          builder: (context) => const RegisterPage()
-        );
-        case '/homepage':
-        return MaterialPageRoute(
-          builder: (context) => const HomePage()
-        );
-        case '/profile':
-        return MaterialPageRoute(
-          builder: (context) => const Profile()
-        );
-        case '/academics':
-        return MaterialPageRoute(
-          builder: (context) => const Academics()
-        );
-        case '/marks':
-        return MaterialPageRoute(
-          builder: (context) =>  Marks()
-        );
-        case '/ia':
-        return MaterialPageRoute(
-          builder: (context) =>  Ia_marks()
-        );
-        case '/sem':
-        return MaterialPageRoute(
-          builder: (context) =>  Sem_marks()
-        );
-        case '/clubs':
-        return MaterialPageRoute(
-          builder: (context) => const ClubPage()
-        );
-        case '/library':
-        return MaterialPageRoute(
-          builder: (context) => const LibraryPage()
-        );
-        case '/hostel':
-        return MaterialPageRoute(
-          builder: (context) => const Hostel()
-        );
+        return MaterialPageRoute(builder: (context) => const RegisterPage());
+      case '/homepage':
+        return MaterialPageRoute(builder: (context) => const HomePage());
+      case '/profile':
+        return MaterialPageRoute(builder: (context) => const Profile());
+      case '/academics':
+        return MaterialPageRoute(builder: (context) => const Academics());
+      case '/marks':
+        return MaterialPageRoute(builder: (context) => Marks());
+      case '/ia':
+        return MaterialPageRoute(builder: (context) => Ia_marks());
+      case '/sem':
+        return MaterialPageRoute(builder: (context) => Sem_marks());
+      case '/clubs':
+        return MaterialPageRoute(builder: (context) => const ClubPage());
+      case '/library':
+        return MaterialPageRoute(builder: (context) => const LibraryPage());
+      case '/hostel':
+        return MaterialPageRoute(builder: (context) => const Hostel());
       default:
         return MaterialPageRoute(
           builder: (context) => const LoginPage(),

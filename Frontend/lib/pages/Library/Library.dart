@@ -30,7 +30,7 @@ class LibraryPage extends StatelessWidget {
           child: Column(
             children: [
               Container(
-                margin:const EdgeInsets.only(left: 10 , right: 10),
+                margin: const EdgeInsets.only(left: 10, right: 10),
                 width: MediaQuery.of(context).size.width,
                 height: 250,
                 child: Card(
@@ -59,7 +59,7 @@ class LibraryPage extends StatelessWidget {
                               color: Colors.green,
                             ),
                           ],
-                          pointers:const [
+                          pointers: const [
                             NeedlePointer(
                               value: 50,
                             ),
@@ -70,7 +70,9 @@ class LibraryPage extends StatelessWidget {
                   ),
                 ),
               ),
-              const SizedBox(height: 10,),
+              const SizedBox(
+                height: 10,
+              ),
               const Row(
                 mainAxisAlignment: MainAxisAlignment.center,
                 children: [
@@ -81,11 +83,16 @@ class LibraryPage extends StatelessWidget {
                   )
                 ],
               ),
-              const SizedBox(height: 10,),
-             const Row(
+              const SizedBox(
+                height: 10,
+              ),
+              const Row(
                 mainAxisAlignment: MainAxisAlignment.center,
                 children: [
-                  CardBox(title: "News", icon: Icons.newspaper,),
+                  CardBox(
+                    title: "News",
+                    icon: Icons.newspaper,
+                  ),
                   CardBox(
                     title: "History",
                     icon: Icons.location_history_rounded,

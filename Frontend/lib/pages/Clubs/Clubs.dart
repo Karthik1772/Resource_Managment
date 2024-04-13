@@ -12,7 +12,7 @@ class ClubPage extends StatefulWidget {
 class _ClubPageState extends State<ClubPage> {
   @override
   Widget build(BuildContext context) {
-    return  SafeArea(
+    return SafeArea(
       child: Scaffold(
         appBar: AppBar(
           backgroundColor: Colors.orange,
@@ -24,7 +24,7 @@ class _ClubPageState extends State<ClubPage> {
           automaticallyImplyLeading: false,
           leading: IconButton(
             icon: const Icon(Icons.arrow_back),
-            onPressed: () => Navigator.pop(context,'/homepage'),
+            onPressed: () => Navigator.pop(context, '/homepage'),
           ),
         ),
         body: const Column(

@@ -1,6 +1,7 @@
 import 'package:alvas_mangment/widgets/Card_box.dart';
 import 'package:flutter/material.dart';
 import 'package:google_fonts/google_fonts.dart';
+
 class Marks extends StatefulWidget {
   const Marks({super.key});
 
@@ -23,7 +24,7 @@ class _MarksState extends State<Marks> {
           automaticallyImplyLeading: false,
           leading: IconButton(
             icon: const Icon(Icons.arrow_back),
-            onPressed: () => Navigator.pop(context,'/homepage'),
+            onPressed: () => Navigator.pop(context, '/homepage'),
           ),
         ),
         body: Column(
@@ -34,15 +35,14 @@ class _MarksState extends State<Marks> {
               mainAxisAlignment: MainAxisAlignment.spaceEvenly,
               children: [
                 CardBox(
-                  icon: Icons.auto_graph,
-                  title: "IA_Marks",
-                  onPressed: () => Navigator.pushNamed(context, '/ia')
-                  ),
+                    icon: Icons.auto_graph,
+                    title: "IA_Marks",
+                    onPressed: () => Navigator.pushNamed(context, '/ia')),
                 CardBox(
-                  icon: Icons.account_balance_wallet_rounded, 
+                  icon: Icons.account_balance_wallet_rounded,
                   title: "Sem Marks",
                   onPressed: () => Navigator.pushNamed(context, '/sem'),
-                  ),
+                ),
               ],
             ),
           ],
