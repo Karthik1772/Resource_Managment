@@ -4,12 +4,10 @@ import 'package:flutter/material.dart';
 class Details extends StatefulWidget {
   final String? name;
   final String? ans;
-  final TextEditingController? controller;
   Details({
     super.key,
     this.name,
     this.ans,
-    this.controller,
   });
 
   @override
@@ -23,15 +21,16 @@ class _DetailsState extends State<Details> {
       mainAxisAlignment: MainAxisAlignment.spaceEvenly,
       children: [
         Container(
-          width: double.infinity,
-          height: 30,
-          margin: EdgeInsets.only(right: 25),
-          child: TextField(
-            controller: widget.controller,
-            decoration: InputDecoration(
-              labelText: widget.ans,
-            ),
-          ),
+          width: 200,
+          height: 25,
+          margin: EdgeInsets.only(left: 25),
+          child: Text(widget.name!,style: TextStyle(fontSize: 16),),
+        ),
+        Container(
+          width: 100,
+          height: 25,
+          // margin: EdgeInsets.only(right: 25),
+          child: Text(widget.ans!,style: TextStyle(fontSize: 16),),
         ),
       ],
     );
