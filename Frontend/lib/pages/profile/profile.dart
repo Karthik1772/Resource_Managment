@@ -1,3 +1,5 @@
+import 'dart:ffi';
+
 import 'package:flutter/material.dart';
 import 'package:google_fonts/google_fonts.dart';
 
@@ -51,19 +53,14 @@ class _ProfileState extends State<Profile> {
           ),
         ),
         Container(
-            child: Column(
-          children: [
-            Container(
-              child: ListTile(
-                title: Text(
-                  "Basic Details",
-                  style: GoogleFonts.actor(
-                      color: Color.fromARGB(255, 0, 0, 0), fontSize: 20),
-                ),
-              ),
-            )
-          ],
-        )),
+          width: double.infinity,
+          height: 30,
+          child: Text(
+            "Basic Details",
+            style: GoogleFonts.cormorant(textStyle: TextStyle(fontSize: 20),),
+          ),
+          margin: EdgeInsets.only(left: 20, right: 20),
+        ),
       ]),
     );
   }
