@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:flutter/widgets.dart';
 import 'package:google_fonts/google_fonts.dart';
 
 class Profile extends StatefulWidget {
@@ -51,16 +52,33 @@ class _ProfileState extends State<Profile> {
           ),
         ),
         Container(
-          width: double.infinity,
-          height: 30,
-          child: Text(
-            "Basic Details",
-            style: GoogleFonts.cormorant(
-              textStyle: TextStyle(fontSize: 20),
+          child: SingleChildScrollView(
+            child: Container(
+              child: Container(
+              width: double.infinity,
+              height: 30,
+              child: Text(
+                "Basic Details",
+                style: GoogleFonts.cormorant(
+                  textStyle: TextStyle(fontSize: 20),
+                ),
+              ),
+              margin: EdgeInsets.only(left: 20, right: 20),
+              ),
+              width: double.infinity,
+              height:200,
+              decoration: BoxDecoration(
+                color: Colors.white70,
+                boxShadow: [
+                  BoxShadow(
+                    color: Colors.grey.withOpacity(0.5)
+                  )
+                ]
+              ),
             ),
           ),
-          margin: EdgeInsets.only(left: 20, right: 20),
         ),
+        Container(),
       ]),
     );
   }
