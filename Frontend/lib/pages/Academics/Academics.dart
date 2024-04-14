@@ -58,7 +58,7 @@ class _AcademicsState extends State<Academics> {
                 CardBox(
                   icon: Icons.library_books,
                   title: "Syllabus",
-                  // onPressed: () => Navigator.pushNamed(context, routeName),
+                  onPressed: () => Navigator.pushNamed(context, '/syllabus'),
                 ),
                 CardBox(
                   icon: Icons.calendar_month_outlined,
