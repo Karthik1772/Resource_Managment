@@ -4,10 +4,14 @@ import 'package:flutter/material.dart';
 class Details extends StatefulWidget {
   final String? name;
   final String? ans;
+  final double height;
+  final double width;
   Details({
     super.key,
     this.name,
     this.ans,
+    required this.height,
+    required this.width,
   });
 
   @override
@@ -21,15 +25,15 @@ class _DetailsState extends State<Details> {
       mainAxisAlignment: MainAxisAlignment.spaceEvenly,
       children: [
         Container(
-          width: 200,
-          height: 25,
+          width: widget.width,
+          height: widget.height,
           margin: EdgeInsets.only(left: 25),
           child: Text(widget.name!,style: TextStyle(fontSize: 16),),
         ),
         Container(
-          width: 100,
-          height: 25,
-          // margin: EdgeInsets.only(right: 25),
+          width: widget.width,
+          height: widget.height,
+          margin: EdgeInsets.only(right: 25),
           child: Text(widget.ans!,style: TextStyle(fontSize: 16),),
         ),
       ],
