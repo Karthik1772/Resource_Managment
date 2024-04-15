@@ -40,7 +40,7 @@ class _SyllabusState extends State<Syllabus> {
                   CardBox(
                     icon: Icons.menu_book_sharp,
                     title: "MATHS",
-                    // onPressed: () => Navigator.pushNamed(context, routeName),
+                    onPressed: () => Navigator.pushNamed(context, '/sub1'),
                   ),
                   CardBox(
                     icon: Icons.menu_book_sharp,

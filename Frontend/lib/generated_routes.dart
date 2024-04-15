@@ -1,3 +1,4 @@
+import 'package:alvas_mangment/pages/Academics/Syllabus/Subject_Page/Sub_1.dart';
 import 'package:alvas_mangment/pages/Academics/Syllabus/Syllabus.dart';
 
 import 'pages/Academics/Academics.dart';
@@ -42,6 +43,8 @@ class Routes {
         return MaterialPageRoute(builder: (context) => Sem_marks());
       case '/syllabus':
         return MaterialPageRoute(builder: (context) => const Syllabus());
+      case '/sub1':
+        return MaterialPageRoute(builder: (context) => const Sub_1());
       case '/clubs':
         return MaterialPageRoute(builder: (context) => const ClubPage());
       case '/library':
