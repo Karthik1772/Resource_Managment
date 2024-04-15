@@ -1,14 +1,14 @@
 import 'package:alvas_mangment/widgets/Card_box.dart';
 import 'package:flutter/material.dart';
 import 'package:google_fonts/google_fonts.dart';
-class Syllabus extends StatefulWidget {
-  const Syllabus({super.key});
+class Assignment extends StatefulWidget {
+  const Assignment({super.key});
 
   @override
-  State<Syllabus> createState() => _SyllabusState();
+  State<Assignment> createState() => _AssignmentState();
 }
 
-class _SyllabusState extends State<Syllabus> {
+class _AssignmentState extends State<Assignment> {
   @override
   Widget build(BuildContext context) {
     return SafeArea(
@@ -16,7 +16,7 @@ class _SyllabusState extends State<Syllabus> {
         appBar: AppBar(
           backgroundColor: Colors.orange,
           title: Text(
-            'Syllabus',
+            'Assignments',
             style: GoogleFonts.varelaRound(
                 color: Colors.white, fontSize: 25, fontWeight: FontWeight.bold),
           ),
@@ -40,12 +40,12 @@ class _SyllabusState extends State<Syllabus> {
                   CardBox(
                     icon: Icons.menu_book_sharp,
                     title: "MATHS",
-                    onPressed: () => Navigator.pushNamed(context, '/sub1'),
+                    // onPressed: () => Navigator.pushNamed(context, '/sub1'),
                   ),
                   CardBox(
                     icon: Icons.menu_book_sharp,
                     title: "DSDV",
-                    onPressed: () => Navigator.pushNamed(context, '/sub2'),
+                    // onPressed: () => Navigator.pushNamed(context, '/sub2'),
                   ),
                 ],
               ),
@@ -59,12 +59,12 @@ class _SyllabusState extends State<Syllabus> {
                   CardBox(
                     icon: Icons.menu_book_sharp,
                     title: "EPC",
-                    onPressed: () => Navigator.pushNamed(context, '/sub3'),
+                    // onPressed: () => Navigator.pushNamed(context, '/sub3'),
                   ),
                   CardBox(
                     icon: Icons.menu_book_sharp,
                     title: "NETWORK THEORY",
-                    onPressed: () => Navigator.pushNamed(context, '/sub4'),
+                    // onPressed: () => Navigator.pushNamed(context, '/sub4'),
                   ),
                 ],
               ),
@@ -78,12 +78,12 @@ class _SyllabusState extends State<Syllabus> {
                   CardBox(
                     icon: Icons.menu_book_sharp,
                     title: "ANLOG DIGITAL LAB",
-                    onPressed: () => Navigator.pushNamed(context, '/sub5'),
+                    // onPressed: () => Navigator.pushNamed(context, '/sub5'),
                   ),
                   CardBox(
                     icon: Icons.menu_book_sharp,
                     title: "ELECRONIC DEVICES",
-                    onPressed: () => Navigator.pushNamed(context, '/sub6'),
+                    // onPressed: () => Navigator.pushNamed(context, '/sub6'),
                   ),
                 ],
               ),
@@ -97,12 +97,12 @@ class _SyllabusState extends State<Syllabus> {
                   CardBox(
                     icon: Icons.menu_book_sharp,
                     title: "C++ LAB",
-                    onPressed: () => Navigator.pushNamed(context, '/sub7'),
+                    // onPressed: () => Navigator.pushNamed(context, '/sub7'),
                   ),
                   CardBox(
                     icon: Icons.menu_book_sharp,
                     title: "SCR",
-                    onPressed: () => Navigator.pushNamed(context, '/sub8'),
+                    // onPressed: () => Navigator.pushNamed(context, '/sub8'),
                   ),
                 ],
               ),

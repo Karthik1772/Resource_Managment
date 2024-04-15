@@ -2,14 +2,14 @@ import 'package:alvas_mangment/widgets/module_card.dart';
 import 'package:flutter/material.dart';
 import 'package:google_fonts/google_fonts.dart';
 
-class Sub_1 extends StatefulWidget {
-  const Sub_1({super.key});
+class Sub_8 extends StatefulWidget {
+  const Sub_8({super.key});
 
   @override
-  State<Sub_1> createState() => _Sub_1State();
+  State<Sub_8> createState() => _Sub_8State();
 }
 
-class _Sub_1State extends State<Sub_1> {
+class _Sub_8State extends State<Sub_8> {
   @override
   Widget build(BuildContext context) {
     return SafeArea(
