@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "627540500366",
+    "project_id": "alvas-managment",
+    "storage_bucket": "alvas-managment.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:627540500366:android:79402be82d08ab45204edf",
+        "android_client_info": {
+          "package_name": "com.example.alvas_mangment"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDfO3jnvIs3D6TZsElnNI4mKnXHEXm99Uk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
