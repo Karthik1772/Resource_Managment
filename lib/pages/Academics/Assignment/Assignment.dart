@@ -40,7 +40,7 @@ class _AssignmentState extends State<Assignment> {
                   CardBox(
                     icon: Icons.menu_book_sharp,
                     title: "MATHS",
-                    // onPressed: () => Navigator.pushNamed(context, '/sub1'),
+                    onPressed: () => Navigator.pushNamed(context, '/asgmt1'),
                   ),
                   CardBox(
                     icon: Icons.menu_book_sharp,
