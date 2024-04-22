@@ -1,4 +1,5 @@
 import 'package:alvas_mangment/pages/Academics/Assignment/Assignment.dart';
+import 'package:alvas_mangment/pages/Academics/Assignment/Subject_Page/asgmt_1.dart';
 import 'package:alvas_mangment/pages/Academics/Syllabus/Subject_Page/Sub_1.dart';
 import 'package:alvas_mangment/pages/Academics/Syllabus/Subject_Page/sub_2.dart';
 import 'package:alvas_mangment/pages/Academics/Syllabus/Subject_Page/sub_3.dart';
@@ -65,6 +66,8 @@ class Routes {
         return MaterialPageRoute(builder: (context) => const Sub_8());
       case '/assignment':
         return MaterialPageRoute(builder: (context) => const Assignment());
+      case '/asgmt1':
+        return MaterialPageRoute(builder: (context) => const asgmt_1());
       case '/clubs':
         return MaterialPageRoute(builder: (context) => const ClubPage());
       case '/library':
