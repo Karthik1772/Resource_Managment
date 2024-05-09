@@ -36,7 +36,6 @@ dependencies:
   cupertino_icons: any
   http: any
   web_socket_channel: any
-  firebase_core: ^2.30.0
   
 
 dev_dependencies:
