@@ -39,7 +39,7 @@ class _HostelState extends State<Hostel> {
                 CardBox(
                   icon: Icons.home_outlined,
                   title: "Home history",
-                  // onPressed: () => Navigator.pushNamed(context, '/marks'),
+                  onPressed: () => Navigator.pushNamed(context, '/marks'),
                 ),
               ],
             ),
