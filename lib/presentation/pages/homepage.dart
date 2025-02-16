@@ -33,7 +33,7 @@ class _HomePageState extends State<HomePage> {
               child: GestureDetector(
                 onTap: () => Navigator.pushNamed(context, '/profile'),
                 child: Card(
-                  elevation: 10,
+                  elevation: 5,
                   surfaceTintColor: Colors.transparent,
                   child: ListTile(
                     leading: CircleAvatar(

@@ -16,7 +16,7 @@ class CardBox extends StatelessWidget {
         width: 170,
         height: 170,
         child: Card(
-          elevation: 10,
+          elevation: 5,
           surfaceTintColor: Colors.transparent,
           child: Column(
             mainAxisAlignment: MainAxisAlignment.spaceEvenly,
