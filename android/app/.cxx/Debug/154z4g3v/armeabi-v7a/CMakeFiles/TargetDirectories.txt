@@ -1,0 +1,2 @@
+C:/Users/Karthik Kashyap/Desktop/Resource_managment/android/app/.cxx/Debug/154z4g3v/armeabi-v7a/CMakeFiles/edit_cache.dir
+C:/Users/Karthik Kashyap/Desktop/Resource_managment/android/app/.cxx/Debug/154z4g3v/armeabi-v7a/CMakeFiles/rebuild_cache.dir
