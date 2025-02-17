@@ -80,8 +80,7 @@ class _AsgmtState extends State<Asgmt> {
                         child: Center(
                             child: Text("Click for material",
                                 style: TextStyle(fontSize: 20))),
-                      )
-                    )
+                      ))
                 ],
               ),
             )

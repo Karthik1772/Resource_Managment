@@ -75,7 +75,8 @@ class Routes {
       case '/hostel':
         return MaterialPageRoute(builder: (context) => const Hostel());
       default:
-        return MaterialPageRoute(builder: (context) => const LoginPage(),
+        return MaterialPageRoute(
+          builder: (context) => const LoginPage(),
         );
     }
   }

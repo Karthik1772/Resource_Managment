@@ -29,8 +29,7 @@ class _asgmt_1State extends State<asgmt_1> {
         ),
         body: Column(
           mainAxisAlignment: MainAxisAlignment.spaceEvenly,
-          children: 
-          [
+          children: [
             Asgmt(title: 'First Assignment', date: "22/04/2024"),
             Asgmt(title: 'Second Assignment', date: "22/05/2024")
           ],

@@ -28,13 +28,19 @@ class _DetailsState extends State<Details> {
           width: widget.width,
           height: widget.height,
           margin: EdgeInsets.only(left: 25),
-          child: Text(widget.name!,style: TextStyle(fontSize: 16),),
+          child: Text(
+            widget.name!,
+            style: TextStyle(fontSize: 16),
+          ),
         ),
         Container(
           width: widget.width,
           height: widget.height,
           margin: EdgeInsets.only(right: 25),
-          child: Text(widget.ans!,style: TextStyle(fontSize: 16),),
+          child: Text(
+            widget.ans!,
+            style: TextStyle(fontSize: 16),
+          ),
         ),
       ],
     );

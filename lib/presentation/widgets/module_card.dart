@@ -36,7 +36,7 @@ class _ModuleState extends State<Module> {
               Container(
                   width: 190,
                   height: 40,
-                  margin: EdgeInsets.only(left:10,right: 15),
+                  margin: EdgeInsets.only(left: 10, right: 15),
                   decoration: BoxDecoration(
                       color: Colors.blue,
                       border: Border.all(color: Colors.blue),
@@ -48,8 +48,7 @@ class _ModuleState extends State<Module> {
                     child: Center(
                         child: Text("Click for notes",
                             style: TextStyle(fontSize: 20))),
-                  )
-                )
+                  ))
             ],
           ),
         ),
